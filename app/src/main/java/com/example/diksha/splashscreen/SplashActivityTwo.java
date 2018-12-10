@@ -11,12 +11,12 @@ import android.widget.VideoView;
  * Created by diksha on 8/12/18.
  */
 
-public class SplashActivity extends AppCompatActivity {
+public class SplashActivityTwo extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
+        setContentView(R.layout.activity_splash_two);
 
         VideoView videoView = findViewById(R.id.videoview);
         Uri path = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.sns);

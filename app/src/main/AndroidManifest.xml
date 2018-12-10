@@ -15,7 +15,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SplashActivity">
+        <activity android:name=".SplashActivityTwo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SplashActivityOne">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
